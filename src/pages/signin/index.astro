@@ -23,8 +23,11 @@ import Layout from '../../layouts/Layout.astro'
 			.getElementById('signin-form')
 			?.addEventListener('submit', async (event: Event) => {
 				event.preventDefault()
-				const email = (event.target as HTMLFormElement).email.value
-				const password = (event.target as HTMLFormElement).password.value
+				const form = event.target as HTMLFormElement
+
+				const email = form.email
+				const password = form.password
+
 				const tmp = await authClient.signIn.email({
 					email,
 					password,
