@@ -1,7 +1,7 @@
 {
 	"name": "better-auth-astro5",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"scripts": {
 		"dev": "pnpm db-setup && astro dev",
 		"build": "pnpm db-setup && astro build",
