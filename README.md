@@ -30,7 +30,7 @@ Better Auth Astro is a web application built using Astro, Drizzle ORM, and Bette
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/devgauravjatt/better-auth-astro5
+   npx gitpick https://github.com/devgauravjatt/better-auth-astro5
    ```
 
 2. **Navigate to the project directory**:
